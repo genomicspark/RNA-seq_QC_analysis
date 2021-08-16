@@ -90,6 +90,7 @@ summary(de <- decideTestsDGE(lrt, adjust.method="BH", p.value=0.2, lfc=0.583))
 tab <- topTags(lrt, n=20000, sort.by="p.value", p.value=1.0)
 write.table(tab, file="mygenelist_cohort3_HSC_noRUVg.txt", sep="\t")
 
+## Top 5000, less variant genes would be used empirical house keepking genes.
 empirical <- rownames(set)[which(!(rownames(set) %in% rownames(top)[1:10000]))]
 
 ## ----emp_ruvg, fig.cap="RUVg normalization based on empirical controls.", fig.subcap=c("RLE plot","PCA plot")----
