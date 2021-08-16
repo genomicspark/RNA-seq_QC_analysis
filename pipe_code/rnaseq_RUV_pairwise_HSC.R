@@ -1,4 +1,4 @@
-# RUV RNA-seq pipeline 0.2
+# RUV RNA-seq pipeline 1.0
 
 library(RUVSeq)
 library(limma)
