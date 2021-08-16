@@ -1,11 +1,11 @@
 # RNA_seq_analysis_pipe  
 This is for the QC matrix construction, data analysis and visualization for RNA-seq data.  
+This is forked RNA-seq pipeline from NIEHS TaRGETII Environmental Epigenetics project.
 Current version: `v4`   
 
-Advisor: Bo Zhang  
-Contributor: Cheng Lyu and Shaopeng Liu  
+Contributor: Cheng Lyu, Shaopeng Liu, Bo Zhang, and Bongsoo Park
 
-For any question, please contact Wustl.Zhanglab@gmail.com  
+For any question, please contact genomicspark@gmail.com  
 
 
 ## Usage: 
