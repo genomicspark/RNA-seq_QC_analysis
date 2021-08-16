@@ -1,4 +1,6 @@
 # RUV RNA-seq pipeline 1.0
+# edgeR pipeline is recommended when there are 3,4 biological replicates per condition
+# limma-voom is recommended when there are more than 5,6 biological replicates per condition
 
 library(RUVSeq)
 library(limma)
