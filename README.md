@@ -29,8 +29,8 @@ samtools (v1.9) and bedtools (v2.29) were used to manipulate the sequence alignm
 The following mouse genome and gene references were built into the singularity image and used for TaRGET RNA-seq data processing:
 
 STAR indexes of mouse genome (mm10).
-Gtf file of vM20 gene annotation from GENCODE.
-RSEM references using GENCODE vM20 annotations.
+Gtf file of vM22 gene annotation from GENCODE.
+RSEM references using GENCODE vM22 annotations.
 Chromosome size file of mm10.
 
 ## Usage: 
