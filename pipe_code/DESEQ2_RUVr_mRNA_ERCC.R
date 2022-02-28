@@ -1,4 +1,4 @@
-# RUVr ATAC-seq pipeline 0.2
+# RUVg and RUVr RNA-seq pipeline
 
 library(RUVSeq)
 library(limma)
