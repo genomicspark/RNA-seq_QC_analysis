@@ -33,17 +33,18 @@ x <- x[keep.exprs,, keep.lib.sizes=FALSE]
 dim(x)
 
 ## ----create sample group for DE analysis---- ##
-expo <- as.factor(rep(c(""), c(8)))
+age <- as.factor(rep(c(""), c(8)))
 diet <- as.factor(rep(c(""), c(8)))
 method <- as.factor(rep(c("",""), c(4,4)))
-age <- as.factor(rep(c("FA","PM"), 
+expo <- as.factor(rep(c("FA","PM"), 
                      c(4,4)))
-x$samples$expo <- expo
+
 x$samples$diet <- diet
 x$samples$method <- method
 x$samples$age <- age
+x$samples$expo <- expo
 
-group <- factor(paste(age,method, sep=""))
+group <- factor(paste(age,expo, sep=""))
 lcpm <- cpm(x, log=FALSE)
 genes <- rownames(x)
 
